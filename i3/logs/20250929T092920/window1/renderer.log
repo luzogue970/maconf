@@ -1,0 +1,30 @@
+2025-09-29 09:29:22.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:22.254 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:22.255 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:22.859 [info] Started local extension host with pid 3357647.
+2025-09-29 09:29:22.973 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-29 09:29:24.279 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-29 09:29:26.755 [info] [perf] Render performance baseline is 39ms
+2025-09-29 09:29:53.927 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:53.928 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:53.928 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:29:54.407 [info] Started local extension host with pid 3385482.
+2025-09-29 09:29:54.515 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-29 09:29:55.814 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-29 09:29:57.120 [info] [perf] Render performance baseline is 56ms
+2025-09-29 09:30:56.185 [error] Unknown (FileSystemError): Failed to move ',' to the trash (Failed to move item to trash)
+    at o6.create (file:///usr/share/code/resources/app/out/main.js:35:29697)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:35:26951)
+    at c5.z (file:///usr/share/code/resources/app/out/main.js:59:26610)
+2025-09-29 09:30:56.204 [error] Failed to move ',' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move ',' to the trash (Failed to move item to trash)
+    at o6.create (file:///usr/share/code/resources/app/out/main.js:35:29697)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:35:26951)
+    at c5.z (file:///usr/share/code/resources/app/out/main.js:59:26610)
+2025-09-29 09:34:17.849 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/mathieulp/.config/i3/battery-notify.sh 
+2025-09-29 09:34:18.596 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:34:18.596 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:34:18.596 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-29 09:34:19.060 [info] Started local extension host with pid 3626477.
+2025-09-29 09:34:19.705 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-29 09:34:20.320 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-29 09:34:21.915 [info] [perf] Render performance baseline is 51ms

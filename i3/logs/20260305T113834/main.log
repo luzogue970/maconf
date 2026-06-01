@@ -1,0 +1,5 @@
+2026-03-05 11:38:35.163 [info] update#setState idle
+2026-03-05 11:39:05.166 [info] update#setState checking for updates
+2026-03-05 11:39:05.223 [info] update#setState available for download
+2026-03-05 11:39:27.103 [info] Extension host with pid 1372089 exited with code: 0, signal: unknown.
+2026-03-05 11:40:16.510 [info] Extension host with pid 1384855 exited with code: 0, signal: unknown.

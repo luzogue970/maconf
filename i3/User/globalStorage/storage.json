@@ -1,0 +1,90 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "440fa1d6c2b298d8d93857eff8ec66538e4524693cfedb8945a84093fc3fa0e1",
+    "telemetry.devDeviceId": "f4865673-1e75-4782-ac53-fe6bea8b6b71",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/mathieulp/.config/polybar"
+            },
+            {
+                "folderUri": "file:///home/mathieulp/Documents/mathieu/dev/cours/m2project/cyna"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/mathieulp/.config/i3": "__default__profile__",
+            "file:///home/mathieulp/.config/polybar": "__default__profile__",
+            "file:///home/mathieulp/Documents/mathieu/dev/cours/m2project/cyna": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 197,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/mathieulp/Documents/mathieu/dev/cours/m2project/cyna",
+            "backupPath": "/home/mathieulp/.config/i3/Backups/cf0c6d72f7de3bab3b25c7a62e5606ab",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 28,
+                "width": 1920,
+                "height": 1052
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 197,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "ab43b25a04105414c4c9af202e2f5b3c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3564e45a9cedb9a3e816fe32831609fa": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f99c0afeb3e085eb89f84defe0ad7618": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+2026-03-05 11:38:38.992 [info] [main] Log level: Info
+2026-03-05 11:38:38.992 [info] [main] Validating found git in: "git"
+2026-03-05 11:38:38.992 [info] [main] Using git "2.51.0" from "git"
+2026-03-05 11:38:38.992 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-05 11:38:38.992 [info] > git rev-parse --show-toplevel [33ms]
+2026-03-05 11:38:38.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:38.992 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-05 11:38:38.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:38.992 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-05 11:38:38.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:38.992 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-05 11:38:38.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:38.992 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-05 11:38:38.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:38.992 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-05 11:38:39.039 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-05 11:38:39.040 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:38:39.202 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-05 11:38:39.202 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-05 11:39:32.586 [info] [main] Log level: Info
+2026-03-05 11:39:32.586 [info] [main] Validating found git in: "git"
+2026-03-05 11:39:32.586 [info] [main] Using git "2.51.0" from "git"
+2026-03-05 11:39:32.586 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-05 11:39:32.586 [info] > git rev-parse --show-toplevel [17ms]
+2026-03-05 11:39:32.596 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-03-05 11:39:32.609 [info] [Model][openRepository] Opened repository (path): /home/mathieulp/Documents/mathieu/dev/cours/m2project/cyna
+2026-03-05 11:39:32.609 [info] [Model][openRepository] Opened repository (real path): /home/mathieulp/Documents/mathieu/dev/cours/m2project/cyna
+2026-03-05 11:39:32.609 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-05 11:39:32.632 [info] > git config --get commit.template [13ms]
+2026-03-05 11:39:32.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [32ms]
+2026-03-05 11:39:32.663 [info] > git rev-parse --show-toplevel [39ms]
+2026-03-05 11:39:32.700 [info] > git rev-parse --show-toplevel [18ms]
+2026-03-05 11:39:32.709 [info] > git status -z -uall [16ms]
+2026-03-05 11:39:32.710 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-03-05 11:39:32.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [15ms]
+2026-03-05 11:39:32.765 [info] > git rev-parse --show-toplevel [59ms]
+2026-03-05 11:39:32.776 [info] > git config --get commit.template [20ms]
+2026-03-05 11:39:32.784 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-05 11:39:32.784 [info] > git config --get --local branch.dev.vscode-merge-base [20ms]
+2026-03-05 11:39:32.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [9ms]
+2026-03-05 11:39:32.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [15ms]
+2026-03-05 11:39:32.827 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [8ms]
+2026-03-05 11:39:32.836 [info] > git rev-parse --show-toplevel [30ms]
+2026-03-05 11:39:32.845 [info] > git diff --name-status -z --diff-filter=ADMR a5fb0da0d6f041ecd898a39326e0ce875d3a7905...refs/remotes/origin/dev [9ms]
+2026-03-05 11:39:32.864 [info] > git rev-parse --show-toplevel [20ms]
+2026-03-05 11:39:32.874 [info] > git status -z -uall [19ms]
+2026-03-05 11:39:32.874 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-05 11:39:32.875 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-03-05 11:39:32.892 [info] > git rev-parse --show-toplevel [4ms]
+2026-03-05 11:39:32.904 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-05 11:39:32.914 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-05 11:39:32.917 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-05 11:39:33.170 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-05 11:40:00.759 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [136ms]
+2026-03-05 11:40:01.285 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-05 11:40:05.965 [info] > git clean -f -q -- back/common-error/build/tmp/compileJava/previous-compilation-data.bin [3ms]
+2026-03-05 11:40:05.993 [info] > git config --get commit.template [12ms]
+2026-03-05 11:40:05.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2026-03-05 11:40:06.020 [info] > git status -z -uall [14ms]
+2026-03-05 11:40:06.025 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-03-05 11:40:07.065 [info] > git config --get commit.template [8ms]
+2026-03-05 11:40:07.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [3ms]
+2026-03-05 11:40:07.091 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-03-05 11:40:07.094 [info] > git status -z -uall [18ms]
+2026-03-05 11:40:09.490 [info] > git clean -f -q -- back/common-error/build/tmp/jar/MANIFEST.MF [5ms]
+2026-03-05 11:40:09.512 [info] > git config --get commit.template [11ms]
+2026-03-05 11:40:09.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2026-03-05 11:40:09.539 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-03-05 11:40:09.540 [info] > git status -z -uall [16ms]
+2026-03-05 11:40:12.115 [info] > git config --get commit.template [8ms]
+2026-03-05 11:40:12.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2026-03-05 11:40:12.139 [info] > git status -z -uall [12ms]
+2026-03-05 11:40:12.142 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
